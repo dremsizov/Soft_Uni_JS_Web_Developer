@@ -1,0 +1,19 @@
+table{
+    border-width: 1px;
+    border-collapse:collapse;
+}
+table thead{
+    width: 1px;
+    background-color: rgb(221, 221, 221);
+    text-align: left;
+}
+table th,table td{
+    border: 1px solid rgb(221, 221, 221);
+    text-align: left;
+}
+
+
+table tr:nth-child(odd) td{
+    background: rgb(241, 241, 241);
+
+}
