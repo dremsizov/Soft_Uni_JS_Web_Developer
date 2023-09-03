@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+body {
+    line-height: 3;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 27px;
+}
+
+
+.click{
+    background-color: green;
+}
+.email{
+    background-color: orange;
+}
