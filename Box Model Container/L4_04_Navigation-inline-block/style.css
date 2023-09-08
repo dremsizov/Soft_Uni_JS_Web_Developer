@@ -1,0 +1,17 @@
+html{
+    font-family:Helvetica, sans-serif;
+}
+article{
+    display: inline;
+}
+nav{
+    display: inline-block;
+    color: lightgreen;
+}
+li{
+    display: inline-block;
+}
+a{
+    color: lightgreen;
+    size: 12px;
+}
