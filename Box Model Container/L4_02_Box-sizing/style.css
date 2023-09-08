@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+section{
+    width: 250px;
+    height: 250px;
+    border:1px dashed green;
+    
+}
+h1{
+    text-align: center;
+}
+section p{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px;
+    padding: 20px;
+    border: 3px solid blue;
+    
+}
