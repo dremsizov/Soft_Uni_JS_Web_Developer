@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrappe {
+    background: url("./image/image1.png");
+    object-fit: contain;
+    background-repeat: repeat-y;
+    max-width: 900px;
+    margin: 5em auto;
+    box-shadow: 30px 40px 40px 1px rgba(0,0,0,1);
+}
+
+.card {
+    display: flex;
+    gap:1em
+}
+
+.card .left-part {
+    flex-basis: 50%; 
+    margin: 1em;
+
+}
+.card .right-part {
+    margin: 1em;
+    flex-basis: 50%; 
+}
+
+
+.right-part-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-title{
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 1em;
+    
+}
+.card-title h2{
+    font-weight: 600;
+}
+
+.card-title-second p{
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.card-title-second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    border-top: 0.1em dashed green;
+}
+
+.product-info ul{
+    list-style: none;
+    padding-bottom: 2em;
+}
+.product-info span{
+    color:#3f8153;
+    font-weight: bold;
+}
+.product-instruction{
+    padding-bottom: 2em;
+}
+.table{
+    padding-bottom: 2em;
+    gap:2em
+}
+.table th {
+    border: 1px solid green;
+    padding: 1em;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid green;
+    
+}
+
+.btn-fruit{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.btn-add a{
+background-color: green;
+border-radius: 3em;
+padding: 0.5em 3em;
+text-align: center;
+text-decoration: none;
+color: white;
+}.btn-delete a{
+    background-color: red;
+    border-radius: 3em;
+    padding: 0.5em 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    }
+

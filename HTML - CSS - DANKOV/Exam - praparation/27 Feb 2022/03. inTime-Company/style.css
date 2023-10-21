@@ -1,0 +1,249 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Helvetica, sans-serif;
+}
+
+
+.logo-nav{
+    font-size: 2.5em;
+}
+.logo-nav span{
+    color: #97d7e5
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 2em;
+    font-size: 1.5em;
+    
+}
+.nav li{
+    list-style: none;
+}
+
+.nav span{
+    padding-bottom: 0.2em;
+    border-bottom: 0.3em solid #a6dbe2;
+}
+.bac-img {
+    position: relative;
+}
+.bac-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome-text{
+    display: block;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    width: 44em;
+    padding: 0.7em;
+}
+.text{
+    font-size: 3.9em;
+}
+.btn-ready a{
+display: inline-block;
+color: white;
+text-decoration: none;
+background: #388dba;
+padding: 0.7em 2.5em;
+border-radius: 2em;
+font-size: 1.4em;
+}
+   
+.welcome-container{
+display: block;
+   text-align:center;
+   margin: 2em 8em;
+}
+.welcome-title-text{
+    font-size: 2.9em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.welcome-title-text span{
+    padding-bottom: 0.2em;
+    border-bottom: 0.2em solid #a6dbe2;
+}
+
+.welcome-btn a{
+    display: inline-block;
+    background: #474747;
+    text-decoration: none;
+    font-size: 1.43em;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 3em;
+    
+}
+
+.title-text{
+    position: absolute;
+    top:24em;
+    left:13em;
+}
+
+
+.welcome-p-text {
+    font-size: 1.6em;
+    color: #555d6b;
+    padding-bottom: 1em;
+    
+}
+.services{
+    background: #eef0f1;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.service-title {
+    text-align: center;
+    font-size: 2.9em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.section-cards{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+}
+
+.img-service img{
+    display: block;
+    width: 100%;
+
+}
+
+.card-info-text{
+    background: white;
+    padding: 2em;
+}
+
+.service-cardss{
+    width: 24em;
+    text-align: center;
+}
+
+.service-title-card{
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.service-text{
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.service-btn a{
+    display: inline-block;
+    background: #474747;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;   
+}
+
+.subscribe{
+    background: #393f43;
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 3em;
+}
+
+.subscribe h3{
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 0.5em;
+}.subscribe p{
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.subsribe-btn a{
+    display: inline-block;
+    background: #6cbffc;
+    color: white;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    
+    text-align: center;
+    font-size: 1.2em;
+}
+.email input{
+    background:#545a5e ;
+    height: 3em;
+}
+
+.subscribe-form{
+display: flex;
+gap:1em;
+justify-content: center;
+}
+
+.footer-info{
+    display: flex;
+    background: #2f3539;
+    color: white;
+    gap:2em;
+    justify-content:space-around;
+    font-size: 1.4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+
+.footer-coryright{
+    background: #262b2f;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    
+}
+.footer-coryright span{
+    color: #97d7e5
+}
+.footer-contact{
+   line-height: 2em;
+}
+.footer-service{
+    line-height: 2em;
+}
+.footer-address{
+    line-height: 2em;
+}
+.footer-folloUs{
+    line-height: 2em;
+}
+.info{
+    padding-top: 2em;
+}

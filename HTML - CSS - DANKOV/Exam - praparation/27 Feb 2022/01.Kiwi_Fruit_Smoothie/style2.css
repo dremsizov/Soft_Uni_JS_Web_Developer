@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+    font-family: 'PT Serif', serif;
+    width: 100vh;
+}
+
+
+.card{
+    display: flex; 
+    flex-direction: row;
+    background-image: url("/image/image1.png");
+    background-repeat: repeat-y;
+    margin: 20%;
+    box-shadow: 10px 5px 5px rgb(105, 101, 101);
+}
+
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.3rem 2.5rem 1.3rem;
+    font-style: italic;
+    
+}
+.product-materials{
+    padding-left: 1.3rem;
+    padding-bottom: 2rem;
+}
+.product-materials span{
+    color:#418210;
+    font-weight: bolder;
+}
+
+.right-part-image{
+    width: 100%;
+}
+.product-how-to-prepare{
+    padding-left: 1.3rem;
+    padding-bottom: 4rem;
+}
+.table table td{
+    width: 20rem;
+    border: 0.2rem solid green;
+    text-align: center;
+}
+.table{
+    padding-bottom: 2rem;
+}
+

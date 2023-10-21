@@ -1,0 +1,78 @@
+@media (max-width:600px){
+    header{
+        padding: 0;
+    }
+    #top-bar ul li:nth-child(4) {
+        display:none;
+    }
+    #top-bar ul {
+        padding-left: 20px;
+    }
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem
+    }
+    #top-bar{
+        margin-bottom: 0.5rem;
+    }
+    #main-menu ul {
+        text-align: center; 
+        vertical-align: middle;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    #main-menu ul li{
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        outline: 1px solid red
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #left-aside{
+        margin: 10px;
+        width: 100%;
+        display: flex;
+    justify-content: space-evenly;
+    }
+    #left-aside article{
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    #news{
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #news article{
+        width: initial;
+    }
+    #news article h3{
+        font-size: 21px;
+    }
+    #news article p{
+        font-size: 17px;
+    }
+    #right-aside{
+        width: 92%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{
+        width: 100%;
+        margin: 5px;
+    }
+
+}
